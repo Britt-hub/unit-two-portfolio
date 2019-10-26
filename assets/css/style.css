@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  body {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(192, 71, 71);
+  }
+
+header {
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+    height: 80px;
+    color: #333;
+    
+}
+.Links {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.name {
+    padding: 9px 37px;
+    width: 250px;
+    background: rgb(116, 206, 218);
+    height: 80px;
+    display: inline;    
+}
+
+.text {
+    
+    color: black;
+
+}
+
+.footer::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    
+/* .container {
+    width: 100%;
+    clear: both;
+
+} */
+
+.mypic {
+    float: left;
+}
+
+.message {
+    height: 500px;
+    width: 900px;
+}
+img {
+    margin: 20px;
+}
+
+#about, #portfolio {
+    padding-right: 20px;    
+    border-right: 2px solid gray;
+}
+
+#portfolio, #contact{
+    padding-left: 20px;
+
+}
+
+.name {
+    
+    font-size: 2.0rem;
+ 
+}
+
+.mypic {
+
+    float: left;    
+
+}
+
+.form-group, .form-row{
+    padding-left: 20px;
+
+}
+
+.shows{
+    z-index: 1;
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    left: 100px;
+    background: rgb(223, 51, 9);
+}
+
+.navbar{
+    padding: 0;
+    border-bottom: 2px solid lightgray;
+    height: 80px;
+}
