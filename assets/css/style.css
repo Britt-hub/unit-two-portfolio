@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    text-align: left;
+    
   }
 
   body {
@@ -101,4 +101,23 @@ img {
     padding: 0;
     /* border-bottom: 2px solid lightgray;
     height: 80px; */
+}
+
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(80, 75, 75);
+    color: white;
+    text-align: center;
+    height: 70px;
+    border-top: 10px solid rgb(34, 133, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
